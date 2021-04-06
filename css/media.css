@@ -1,0 +1,128 @@
+@media(max-width: 1000px){
+    .features .features_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .features .features_item{
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 950px){
+    .about .about_inner{
+        flex-wrap: wrap;
+    }
+    
+    .about .about_img{
+        margin-top: 40px;
+    }
+
+    .about .about_title{
+        width: 100%;
+    }
+}
+
+@media(max-width: 925px){
+    .team .team_cards{
+        justify-content: center;
+    }
+
+    .team .team_element{
+        margin-left: 20px;
+    }
+
+    .team .works_text{
+        width: 100%;
+    }
+}
+
+@media(max-width: 880px){
+    .form .form_item{
+        margin: 20px;
+    }
+
+    .form .form_item:last-child{
+        display: block;
+    }
+
+    .form .form_element{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 790px){
+    .works .works_text{
+        width: 100%;
+    }
+    .team .team_element{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 775px){
+    .footer .footer_element{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer .footer_item{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 695px){
+    .form .discuss input[type=email]{
+        margin: 0;
+    }
+}
+
+@media(max-width: 580px){
+    .facts .facts_element{
+        justify-content: center;
+    }
+
+    .facts .facts_item{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 490px){
+    section .heart::before{
+        display: none;
+    }
+
+    section .heart::after{
+        display: none;
+    }
+
+    .works .works_item .img1{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width: 470px){
+    .header .menu ul{
+        display: none;
+    }
+
+    .header .btn_menu{
+        display: block;
+    }
+    .header .menu_list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #434240;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 5;
+        text-align: center;
+    }
+
+    .header .menu_list li{
+        border-bottom: 1px solid rgba(16, 22, 54, 0.3);
+    }
+}
